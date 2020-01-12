@@ -1,0 +1,67 @@
+# Dean Blank CS171-A ID:db3226
+
+
+ages.csv: 
+
+Prediction when Year = 2017.0 is Age = 28.0.
+
+ Accuracy:   
+ Average Error for Known Values was +/-0.0.
+ Regression Standard Error for Known Values was 0.0.
+
+The prediction for this data set is extremely accurate. As you can see, the standard error for known values was zero. When looking at the data, it it makes sense that the error would be zero because it tracks the age from a person born in 1989. Therefore, we can make the prediction or "figure out" that a person born in 1989 will be 28 years old in 2017. 
+
+
+hurricanes.csv
+
+Prediction when Year = 2017 is Hurricanes = 6.42147.
+
+ Accuracy: 
+ Average Error for Known Values was +/-1.93706.
+ Regression Standard Error for Known Values was 2.46707.
+
+The prediction for this data is not accurate.  The regression standard error for known values was 2.46707, which means that our prediction of 6.42147 is off by roughly 2.47. Therefore, our regression standard error is too high relative to our prediction value.  
+
+Also, the linear model not best way to model this data because hurricanes per year is a random data. For example when making prediction for year 2012, prediction = 6.36 hurricanes when it was really 10 hurricanes. To obtain a more accurate prediction, a difference model should be used.  
+
+
+
+temp.csv
+
+Prediction when Year = 2017 is Temperature F = 58.13214.
+
+ Accuracy:
+ Average Error for Known Values was +/-0.24363.
+ Regression Standard Error for Known Values was 0.29321.
+
+This prediction is very accurate because it measures average global temperature by year, and the regression standard error is a very small value which means that it is close to regression line. The reason for the small regression standard error is because average temperature only changes in small increments every year.
+
+
+
+Voters.csv:
+
+Prediction when Year = 2012 is Voters = 262.00952.
+
+ Accuracy:   
+ Average Error for Known Values was +/-2.26349.
+ Regression Standard Error for Known Values was 3.22785.
+
+This prediction is inaccurate because the actual voter turnout for 2012 was 235.2 (data pulled from internet). With a regression standard error of 3.22785, this means that our prediction was off by about 10 standard deviations. 
+
+
+
+weights.csv
+
+Prediction when height = 80 is weight = 224.47212.
+
+ Accuracy:
+ Average Error for Known Values was +/-5.92382.
+ Regression Standard Error for Known Values was 8.64137.
+
+This data is accurate because as the height increases, the weight will increase on average. With a standard error of 8.64137 in relation to weights, the predicted weight will only be 8.64137 units away on average from the actual weight. This will give a good prediction for future height values. 
+
+
+
+
+
+
